@@ -27,3 +27,4 @@
 
 print("INFP\nENFP\nISTJ\nESTJ") # \n = enter
 print("INFP\tENFP\tISTJ\tESTJ") # \t = tab
+
