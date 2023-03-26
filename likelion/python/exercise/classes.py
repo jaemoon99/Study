@@ -30,5 +30,24 @@ student_1 = Student('김멋사', '컴퓨터공학과')
 
 # student_1.major = '기계공학과'
 
-student_1.edit_major('기계공학과')
-print(student_1.major)
+# student_1.edit_major('기계공학과')
+# print(student_1.major)
+
+# ---------- 객체지향 - 상속(1) ----------
+# 상속(Inheritance)
+class ForeignStudent(Student):
+
+    def __init__(self, name, major, country):
+        super().__init__(name, major)
+        self.country = country
+# ---------- 객체지향 - 상속(2) ----------
+# 오버라이딩 - 부모 클래스의 이름과 같은 함수를 생성하여 내용만 다르게 하는 것
+    def study(self):
+        print(f'{self.name} is studying now.')
+
+foregin_stud_1 = ForeignStudent('이테킷', '국어국문학과', '미국')
+# print(foregin_stud_1.name)
+# print(foregin_stud_1.major)
+# print(foregin_stud_1.country)
+# print(foregin_stud_1.is_graduated)
+# foregin_stud_1.study()
