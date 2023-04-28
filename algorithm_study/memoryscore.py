@@ -14,7 +14,7 @@ name = ["may", "kein", "kain", "radi"]
 yearning = [5, 10, 1, 3]
 photo = [["may"],["kein", "deny", "may"], ["kon", "coni"]]
 
-print(solution2(name, yearning, photo))
+print(solution(name, yearning, photo))
 
 '''
 
