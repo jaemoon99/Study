@@ -1,4 +1,4 @@
-def solution2(name, yearning, photo):
+def solution(name, yearning, photo):
     answer = []
     total_score = 0
     score_dic = dict(zip(name, yearning))
