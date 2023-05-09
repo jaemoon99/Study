@@ -7,4 +7,4 @@ def solution(n, lost, reserve):
             lost.remove(x - 1) # 빌려준 번호 제거
         elif x + 1 in lost: # 앞쪽 사람이 체육복이 있는 경우 뒤쪽을 빌려준다
             lost.remove(x + 1) # 빌려준 번호 제거
-    return n - len(lost) # 전체 학생 수에서 잃어버린 사람을 제외한 나머지를 반환
+    return n - len(lost) # 전체 학생 수에서 잃어버린 사람을 제외한 나머지를 리턴
