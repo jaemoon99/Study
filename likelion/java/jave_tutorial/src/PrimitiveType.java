@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class PrimitiveType {
+public class PrimitiveType {
+    public static void main(String[] args) {
+
+        // 정수형
+        
+    }
 }

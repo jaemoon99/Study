@@ -10,11 +10,11 @@ public class Variables {
     // 6. 자바 예약어 사용 불가
 
     public static void main(String[] args) {
-        int num = 1;
-        double width = 12.34;
-        String content = "Programming";
+        // int num = 1;
+        // double width = 12.34;
+        // String content = "Programming";
 
-        num = 10;
+        // num = 10;
 
         // camel case
         // int productPrice
