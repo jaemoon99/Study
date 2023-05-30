@@ -27,5 +27,4 @@ def solution(s):
         return 0
 
 s = 'baabaa'
-
 print(solution(s))
